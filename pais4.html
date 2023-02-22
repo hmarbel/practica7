@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Galería del Mundo</title>
+
+    <style>
+      body {
+        margin: 0px;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      header,
+      footer {
+        background-color: #040e29;
+        text-align: center;
+        color: white;
+        margin: 0px;
+      }
+
+      header div,
+      footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100px;
+        width: 100%;
+      }
+
+      #content {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        justify-content: center;
+      }
+
+      nav {
+        max-width: 200px;
+        float: left;
+        border-right: 1px solid gray;
+        padding-right: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      nav ul li {
+        margin: 2px 0px;
+        border-radius: 8px;
+        padding: 6px;
+      }
+
+      nav ul a {
+        text-decoration: none;
+      }
+
+      nav ul a:link,
+      nav ul a:visited,
+      nav ul a:active {
+        color: #040e29;
+      }
+
+      nav ul #this {
+        background-color: #fe1946;
+        color: white;
+        font-weight: bold;
+        width: auto;
+      }
+
+      section {
+        width: 1000px;
+      }
+
+      #row {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      article {
+        background-image: url("imgs/italy.png");
+        background-size: 100%;
+        background-position: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        background-blend-mode: lighten;
+      }
+
+      article #info {
+        padding: 15px;
+      }
+
+      article #title {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.5em;
+      }
+
+      article p {
+        text-align: justify;
+      }
+
+      footer {
+        height: 50px;
+        font-size: 0.7em;
+      }
+
+      footer table {
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>Galería del Mundo</h1>
+      </div>
+    </header>
+
+    <div id="content">
+      <nav>
+        <ul>
+          <li><a href="index.html">México</a></li>
+          <li><a href="pais2.html">Alemania</a></li>
+          <li><a href="pais3.html">Estados Unidos</a></li>
+          <li id="this">Italia</li>
+        </ul>
+      </nav>
+
+      <section>
+        <article>
+          <div id="info">
+            <h2 id="title">Italia</h2>
+            <p>
+              Italia, oficialmente la República Italiana, es un país soberano
+              transcontinental, miembro y fundador de la Unión Europea,
+              constituido en una república parlamentaria compuesta por veinte
+              regiones, integradas estas, a su vez, por ciento once provincias.
+              <br /><br />
+              La capital de Italia, Roma, ha sido durante siglos el centro
+              político y cultural de la civilización occidental. Además, es la
+              ciudad santa para la Iglesia católica, siendo el papa el obispo de
+              Roma y encontrándose dentro de la ciudad el micro-Estado del
+              Vaticano. El significado cultural del país se refleja en todos sus
+              Patrimonios de la Humanidad, ya que tiene 58, el país con mayor
+              número del mundo.
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <footer>
+      <table>
+        <tr>
+          <td>Designed by Coré Husaí Martínez Belmonte</td>
+        </tr>
+        <tr>
+          <td>Copyright &copy; TecNM Campus Orizaba</td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>

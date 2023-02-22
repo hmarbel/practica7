@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Galería del Mundo</title>
+
+    <style>
+      body {
+        margin: 0px;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      header,
+      footer {
+        background-color: #040e29;
+        text-align: center;
+        color: white;
+        margin: 0px;
+      }
+
+      header div,
+      footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100px;
+        width: 100%;
+      }
+
+      #content {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        justify-content: center;
+      }
+
+      nav {
+        max-width: 200px;
+        float: left;
+        border-right: 1px solid gray;
+        padding-right: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      nav ul li {
+        margin: 2px 0px;
+        border-radius: 8px;
+        padding: 6px;
+      }
+
+      nav ul a {
+        text-decoration: none;
+      }
+
+      nav ul a:link,
+      nav ul a:visited,
+      nav ul a:active {
+        color: #040e29;
+      }
+
+      nav ul #this {
+        background-color: #fe1946;
+        color: white;
+        font-weight: bold;
+        width: auto;
+      }
+
+      section {
+        width: 1000px;
+      }
+
+      #row {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      article {
+        background-image: url("imgs/usa.png");
+        background-size: 100%;
+        background-position: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        background-blend-mode: lighten;
+      }
+
+      article #info {
+        padding: 15px;
+      }
+
+      article #title {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.5em;
+      }
+
+      article p {
+        text-align: justify;
+      }
+
+      footer {
+        height: 50px;
+        font-size: 0.7em;
+      }
+
+      footer table {
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>Galería del Mundo</h1>
+      </div>
+    </header>
+
+    <div id="content">
+      <nav>
+        <ul>
+          <li><a href="index.html">México</a></li>
+          <li><a href="pais2.html">Alemania</a></li>
+          <li id="this">Estados Unidos</li>
+          <li><a href="pais4.html">Italia</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <article>
+          <div id="info">
+            <h2 id="title">Estados Unidos</h2>
+            <p>
+              Estados Unidos, denominado oficialmente Estados Unidos de
+              América es un país soberano constituido en una república federal
+              constitucional compuesta por cincuenta estados y un distrito
+              federal. Su capital es Washington D. C. y la ciudad más poblada es
+              Nueva York. La mayor parte del país se ubica en el medio de
+              América del Norte ―donde se encuentran sus 48 estados contiguos y
+              Washington D. C.―, entre los océanos Pacífico y Atlántico. Limita
+              con Canadá al norte y con México al sur. <br /><br />Es la
+              economía nacional más grande del mundo en términos nominales, con
+              un PIB estimado en 22,6 billones de dólares (una cuarta parte del
+              PIB global nominal) y una quinta parte del PIB global en paridad
+              de poder adquisitivo. El país es la principal fuerza capitalista
+              del planeta, además de ser líder en la investigación científica y
+              la innovación tecnológica desde el siglo xix y, desde comienzos
+              del siglo xx, el principal país industrial. En PIB PPA, Estados
+              Unidos es la segunda economía más grande, por detrás de la China.
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <footer>
+      <table>
+        <tr>
+          <td>Designed by Coré Husaí Martínez Belmonte</td>
+        </tr>
+        <tr>
+          <td>Copyright &copy; TecNM Campus Orizaba</td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>

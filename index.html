@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Galería del Mundo</title>
+
+    <style>
+      body {
+        margin: 0px;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      header,
+      footer {
+        background-color: #040e29;
+        text-align: center;
+        color: white;
+        margin: 0px;
+      }
+
+      header div,
+      footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100px;
+        width: 100%;
+      }
+
+      #content {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        justify-content: center;
+      }
+
+      nav {
+        max-width: 200px;
+        float: left;
+        border-right: 1px solid gray;
+        padding-right: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      nav ul li {
+        margin: 2px 0px;
+        border-radius: 8px;
+        padding: 6px;
+      }
+
+      nav ul a {
+        text-decoration: none;
+      }
+
+      nav ul a:link,
+      nav ul a:visited,
+      nav ul a:active {
+        color: #040e29;
+      }
+
+      nav ul #this {
+        background-color: #fe1946;
+        color: white;
+        font-weight: bold;
+        width: auto;
+      }
+
+      section {
+        width: 1000px;
+      }
+
+      #row {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      article {
+        background-image: url("imgs/mexico.webp");
+        background-size: 100%;
+        background-position: center;
+        background-color: rgba(255,255,255,0.9);
+        background-blend-mode: lighten;
+      }
+
+      article #info {
+        padding: 15px;
+      }
+
+      article #title {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.5em;
+      }
+
+      article p {
+        text-align: justify;
+      }
+
+      footer {
+        height: 50px;
+        font-size: 0.7em;
+      }
+
+      footer table {
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>Galería del Mundo</h1>
+      </div>
+    </header>
+
+    <div id="content">
+      <nav>
+        <ul>
+          <li id="this">México</li>
+          <li><a href="pais2.html">Alemania</a></li>
+          <li><a href="pais3.html">Estados Unidos</a></li>
+          <li><a href="pais4.html">Italia</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <article>
+            <div id="info">
+                <h2 id="title">México</h2>
+                <p>
+                  México, cuyo nombre oficial es Estados Unidos Mexicanos, es un
+                  país soberano ubicado en la parte meridional de América del
+                  Norte; su capital y ciudad más poblada es la Ciudad de México.
+                  De acuerdo con la constitución vigente, su forma de gobierno
+                  consiste en una república representativa, democrática, laica y
+                  federal, compuesta por 32 entidades federativas (31 estados y la
+                  capital).<br><br>México es el décimo país más poblado del mundo, con
+                  una población estimada en más de 130 millones de personas en
+                  2021. La mayoría de ellas tiene como lengua materna el español,
+                  al que el estado reconoce como lengua nacional junto a 68
+                  lenguas indígenas propias del país, si bien en el país se
+                  hablan alrededor de 287 variedades lingüísticas. Estas cifras
+                  convierten a México en el país con mayor número de
+                  hispanohablantes, así como en el séptimo país con mayor
+                  diversidad lingüística en el mundo.
+                </p>
+              </div>
+        </article>
+      </section>
+    </div>
+
+    <footer>
+      <table>
+        <tr>
+          <td>Designed by Coré Husaí Martínez Belmonte</td>
+        </tr>
+        <tr>
+          <td>Copyright &copy; TecNM Campus Orizaba</td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>

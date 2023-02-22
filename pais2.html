@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Galería del Mundo</title>
+
+    <style>
+      body {
+        margin: 0px;
+        font-family: "Montserrat", sans-serif;
+      }
+
+      header,
+      footer {
+        background-color: #040e29;
+        text-align: center;
+        color: white;
+        margin: 0px;
+      }
+
+      header div,
+      footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 100px;
+        width: 100%;
+      }
+
+      #content {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: flex;
+        justify-content: center;
+      }
+
+      nav {
+        max-width: 200px;
+        float: left;
+        border-right: 1px solid gray;
+        padding-right: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0px;
+      }
+
+      nav ul li {
+        margin: 2px 0px;
+        border-radius: 8px;
+        padding: 6px;
+      }
+
+      nav ul a {
+        text-decoration: none;
+      }
+
+      nav ul a:link,
+      nav ul a:visited,
+      nav ul a:active {
+        color: #040e29;
+      }
+
+      nav ul #this {
+        background-color: #fe1946;
+        color: white;
+        font-weight: bold;
+        width: auto;
+      }
+
+      section {
+        width: 1000px;
+      }
+
+      #row {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      article {
+        background-image: url("imgs/germany.png");
+        background-size: 100%;
+        background-position: center;
+        background-color: rgba(255, 255, 255, 0.9);
+        background-blend-mode: lighten;
+      }
+
+      article #info {
+        padding: 15px;
+      }
+
+      article #title {
+        margin-top: 10px;
+        text-align: center;
+        font-size: 1.5em;
+      }
+
+      article p {
+        text-align: justify;
+      }
+
+      footer {
+        height: 50px;
+        font-size: 0.7em;
+      }
+
+      footer table {
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 0px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <h1>Galería del Mundo</h1>
+      </div>
+    </header>
+
+    <div id="content">
+      <nav>
+        <ul>
+          <li><a href="index.html">México</a></li>
+          <li id="this">Alemania</li>
+          <li><a href="pais3.html">Estados Unidos</a></li>
+          <li><a href="pais4.html">Italia</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <article>
+          <div id="info">
+            <h2 id="title">Alemania</h2>
+            <p>
+              Alemania, oficialmente República Federal de Alemania , es uno de
+              los veintisiete Estados soberanos que forman la Unión Europea.
+              Constituido en Estado social y democrático de derecho, su forma de
+              gobierno es la república parlamentaria y federal. Su capital es
+              Berlín. Está formado por dieciséis estados federados y limita al
+              norte con el mar del Norte, Dinamarca, Suecia y el mar Báltico; al
+              este con Polonia y la República Checa; al sur con Austria y Suiza;
+              y al oeste con Francia, Luxemburgo, Bélgica y los Países Bajos.<br /><br />
+              Como un moderno Estado nación, el país fue unificado en tiempos de
+              la guerra franco-prusiana de 1871. Tras la Segunda Guerra Mundial,
+              cuando la Alemania nazi fue derrotada por los aliados, Alemania
+              fue dividida en dos Estados separados a lo largo de las líneas de
+              ocupación aliada en 1949; los Estados resultantes fueron la
+              República Federal de Alemania y la República Democrática Alemana,
+              que se reunificaron en 1990. Fue miembro fundador de la Comunidad
+              Europea (1957), que se convirtió en la Unión Europea en 1993. Es
+              parte del espacio Schengen y adoptó la moneda común europea, el
+              euro, en 1999 (movimiento de pagos sin efectivo) y 2002 (pagos en
+              efectivo).
+            </p>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <footer>
+      <table>
+        <tr>
+          <td>Designed by Coré Husaí Martínez Belmonte</td>
+        </tr>
+        <tr>
+          <td>Copyright &copy; TecNM Campus Orizaba</td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
